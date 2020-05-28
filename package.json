@@ -1,0 +1,42 @@
+{
+    "name": "rpg-server-rage.mp",
+    "version": "1.0.0",
+    "description": "A role-playing game server for the rage.mp client",
+    "main": "index.js",
+    "scripts": 
+    {
+        "start": "tsc -w",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": 
+    {
+        "type": "git",
+        "url": "git+https://github.com/GeorgeHulpoi/rpg-server-rage.mp.git"
+    },
+    "keywords": 
+    [
+        "rage.mp",
+        "rpg",
+        "gta5",
+        "roleplay",
+        "gaming",
+        "server",
+        "armyw0w",
+        "open-source"
+    ],
+    "author": "George-Valentin Hulpoi",
+    "license": "MIT",
+    "bugs": 
+    {
+        "url": "https://github.com/GeorgeHulpoi/rpg-server-rage.mp/issues"
+    },
+    "homepage": "https://github.com/GeorgeHulpoi/rpg-server-rage.mp#readme",
+    "dependencies": 
+    {
+        "typescript": "^3.9.3"
+    },
+    "devDependencies": 
+    {
+        "tslint": "^6.1.2"
+    }
+}
