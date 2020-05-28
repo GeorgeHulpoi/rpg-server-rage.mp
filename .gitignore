@@ -6,6 +6,7 @@ BugTrap-x64.dll
 
 # compiled output
 /packages
+/dist
 
 # dependencies
 /node_modules

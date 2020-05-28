@@ -3,18 +3,16 @@
     "version": "1.0.0",
     "description": "A role-playing game server for the rage.mp client",
     "main": "index.js",
-    "scripts": 
-    {
+    "scripts": {
         "start": "tsc -w",
+        "bundle": "webpack",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": 
-    {
+    "repository": {
         "type": "git",
         "url": "git+https://github.com/GeorgeHulpoi/rpg-server-rage.mp.git"
     },
-    "keywords": 
-    [
+    "keywords": [
         "rage.mp",
         "rpg",
         "gta5",
@@ -26,17 +24,17 @@
     ],
     "author": "George-Valentin Hulpoi",
     "license": "MIT",
-    "bugs": 
-    {
+    "bugs": {
         "url": "https://github.com/GeorgeHulpoi/rpg-server-rage.mp/issues"
     },
     "homepage": "https://github.com/GeorgeHulpoi/rpg-server-rage.mp#readme",
-    "dependencies": 
-    {
+    "dependencies": {
         "typescript": "^3.9.3"
     },
-    "devDependencies": 
-    {
-        "tslint": "^6.1.2"
+    "devDependencies": {
+        "tslint": "^6.1.2",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
     }
 }
